@@ -238,7 +238,7 @@ class CNNBase(NeuralNetMaster, ABC):
             metrics=self.metrics,
             weighted_metrics=weighted_metrics,
             loss_weights=loss_weights,
-            sample_weight_mode=sample_weight_mode,
+            # sample_weight_mode=sample_weight_mode,
         )
 
         # inject custom training step if needed
